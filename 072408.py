@@ -13,7 +13,3 @@ for i in range(T):
     cases = list(input().split())
     for i in range(len(cases)):
         cases[i] = function(cases[i-1], cases[i])
-        
-
-    
-
